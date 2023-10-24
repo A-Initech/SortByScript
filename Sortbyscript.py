@@ -26,7 +26,7 @@ app.iconbitmap("logo.ico")
 
 
 #TEXTE
-label_title= Label(app,text="SortByScript Alpha 0.1",font=("Courrier",20),bg ='#582ea0', fg='white')
+label_title= Label(app,text="SortByScript Alpha 0.2",font=("Courrier",20),bg ='#582ea0', fg='white')
 label_title.pack(expand=YES)
 #TEXTE 2
 bouton = tkinter.Button (text ="Votre programme de rangement automatique",font=("Courrier",10),bg ='#582ea2', fg='white')
@@ -49,7 +49,7 @@ extensionDocuments = ['.docx','.pdf','.pptx']
 extensionMedia = ['.pnj','.jpeg','.png','.avi','.mkv','.mp4','.mp3']
 extensionSource = ['.zip','.exe','.EXE','.7z','.msi','.torrent','.jar','.img','.rar','.gz','.xz','.iso']
 
-base_folder = "C:\Users\Grelou\Downloads"
+base_folder = "Votre repertoire"
 docFiles = os.path.join(base_folder,'Documents')
 mediaFiles = os.path.join(base_folder,'Media')
 SourceFiles = os.path.join(base_folder,'Source')
